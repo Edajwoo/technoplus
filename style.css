@@ -1,0 +1,202 @@
+/* Write some CSS below */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body{
+    font-family: Chakra Petch;
+  background-color: #fff4ed;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1{
+    font-family: Bebas Neue;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: Bebas Neue;
+}
+
+h3{
+    font-family: Chakra Petch;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #ffe4d4;
+    padding: 1px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: center; 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+
+}
+
+
+.banner{
+  font-weight: bolder;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  justify-content: center;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.container img{
+width: 400px;
+object-fit: contain;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.btn {
+    font-family: "Bebas Neue";
+    font-weight: 900;
+    font-size: 25px;
+    color: #ec6517;
+    background-color: #0066CC;
+    padding: 10px 24px;
+    border: solid #ec6517 3px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1406ms;
+    transform: translateY(0);
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.btn:hover{
+transition : 1406ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #ec6517;
+color: #0066cc;
+border: solid 3px #0066cc;
+}
+
+
+#Logo{
+    width: 380px;
+}
+
+
+.title-box {
+    background-color: #ffe4d4;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.card {
+  flex: 1 0 500px; 
+  margin: 8px; 
+  max-width: 500px;
+}
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+
+
+#Logo {
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 5px; 
+}
